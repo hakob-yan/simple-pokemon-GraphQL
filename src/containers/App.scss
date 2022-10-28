@@ -1,0 +1,15 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../assets/bg.jpg);
+    position: static;
+    height: 100vh;
+    overflow: auto;
+
+}
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}

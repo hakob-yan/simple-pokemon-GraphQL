@@ -1,0 +1,61 @@
+.Pokemon {
+    color: rgb(143, 157, 143);
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    max-width: 1500px;
+    min-width: 400px;
+    width: 80%;
+    margin: 23px auto;
+    height: auto;
+    background-color: rgba($color: #000000, $alpha: 0.6);
+    border: 2px solid white;
+    border-radius: 10px;
+
+    h1 {
+        margin: 5px 0;
+    }
+
+    .image-wrapper {
+        position: relative;
+        margin: 15px;
+        cursor: pointer;
+        transition: 300ms transform;
+
+        &:hover {
+            transform: scale(1.2)
+        }
+
+        .pokemon-image {
+            width: 250px;
+            border: 5px solid green;
+            border-radius: 15px;
+
+        }
+
+        .p-1 {
+            font-size: 24px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.515);
+            width: calc(100% - 10px);
+            position: absolute;
+            left: 5px;
+            bottom: 45px;
+        }
+
+        .p-2 {
+            font-size: 24px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.515);
+            width: calc(100% - 10px);
+            position: absolute;
+            left: 5px;
+            bottom: 13px;
+        }
+    }
+
+    .pokemon-names {
+        color: rgb(190, 88, 88);
+        font-size: 48px;
+    }
+}
